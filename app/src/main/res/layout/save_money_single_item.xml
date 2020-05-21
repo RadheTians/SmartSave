@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ff0055"
+            android:layout_height="0dp"
+            android:id="@+id/heading_save_money"
+            android:layout_weight="1.5"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Cancel Netflix Subscription"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.5"
+            android:weightSum="5">
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="#000000"
+                android:layout_height="match_parent"
+                android:id="@+id/body_save_money"
+                android:layout_weight="4"
+                android:text="Your Netflix subscription is about to expire. Cancel before 25th April if you don't need it anymore to avoid auto renewal and save Rs.999"
+                android:textSize="14dp"
+                android:layout_margin="5dp"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="#780cf2"
+                android:layout_margin="4dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+500"
+                android:id="@+id/amount_save_money"
+                android:background="@drawable/save_money_back_circle"
+                android:textSize="20sp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="2">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@drawable/button_type"
+                android:backgroundTint="#03DAC6"
+                android:layout_width="0dp"
+                android:layout_margin="6dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:text="ACCEPT"/>
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@drawable/button_type"
+                android:layout_width="0dp"
+                android:layout_margin="6dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#03DAC6"
+                android:text="DECLINE"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

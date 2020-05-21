@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom1" android:icon="@drawable/home" android:title="Home" android:orderInCategory="1"/>
+    <item android:id="@+id/bottom2" android:title="Insights" android:icon="@drawable/pie" android:orderInCategory="2"/>
+    <item android:id="@+id/bottom3" android:title="Save Money" android:icon="@drawable/currency_inr" android:orderInCategory="3"/>
+
+</menu>
