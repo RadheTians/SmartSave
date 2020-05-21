@@ -8,15 +8,23 @@ public class Datasheet {
 
 
     // For merchant.csv File.
-    private List<String> bank = Arrays.asList("sbi", "cen", "boi", "paytm","axb", "bob", "pnb", "uob", "cbi", "ioba","axis", "tmbl", "idb", "cnb", "ici", "synb", "alb", "bom", "fbl", "hdf",
-            "inb", "iib", "kmb", "pmc", "psb", "sbj", "sbh", "sbm", "sbp", "sbt", "sib", "ubi", "ybl");
+    private List<String> bank = Arrays.asList("vkgb", "cbi", "frbl", "idfcfirstbl", "cb", "cggb", "clabl", "kbslabl", "wbc", "sib", "rblbl", "db", "ba", "kbl", "tbt-mufjl", "pupgb",
+            "kvbl", "abbl", "yesbl", "nbard", "bbp", "idbibl", "axis", "bob", "apgb", "edb", "dbgb", "alb", "apbl", "ib", "hdfcbl", "bgvb", "sbt", "mrb", "kgb", "jscvtbb", "sg", "bggb",
+            "adcbl", "tmbl", "uob", "dbl", "cna", "usfbl", "crgb", "idb", "jpbl", "ubi", "j&kgb", "pmc", "shgb", "cnb", "trbs", "synb", "pbgb", "ubkgb", "ugb", "bb&kbsc", "sbi", "ktbpcl",
+            "nsdlpbl", "cubl", "crua", "brkgb", "cen", "kmbl", "hpgb", "ibk", "asfbl", "sbh", "i&cbcl", "sgb", "iibl", "jsfbl", "pnb", "smbc", "sbl", "ucob", "ppbl", "bupgb", "vb", "slbl",
+            "ippbl", "fadbpjsc", "pb", "nrb", "anzbgl", "sbj", "bom", "nl", "nesbl", "psb", "sibl", "iob", "bbl", "bc", "ab", "icicibl", "fsfbl", "abl", "nhb", "bb", "sbp", "pgb",
+            "jpmcbna", "kmb", "j&kbl", "tgb", "uobl", "kebhb", "esfbl", "kvgb", "mbl", "jrgb", "ici", "nab", "enbdbpjsc", "apgvb", "dbsbl", "bns", "esafsfbl", "kgsgb", "iib", "inb",
+            "p&sb", "scb", "dcbbl", "cac&ib", "mbpsc", "mpgb", "finopbl", "agvb", "axb", "e-ibi", "ogb", "obc", "mgb", "sb", "tngb", "abipbl", "bi", "sbm", "aebc", "bnpp", "ssfbl",
+            "ptbmitbk", "ioba", "aprb", "ubgb", "ctbcbc,l", "rmgb", "wb", "fbl", "csag", "boi", "qnbsaq", "csbbl", "sidbi", "paytm", "hdf", "lvbl", "ybl", "csfbl", "hsbcl", "bm");
+
     private List<String> merchant = Arrays.asList("swiggy","zomato","uber eats","dominos","food panda","kfc","amazon","flipkart","myntra ","hathway","jabong","ajio","flpkrt","paytm",
-            "club factory","bwkoof","Big basket","grofers","bigbkt","naturebasket","easyday","amazonfresh","spencers","irctci","goibib","MMT","ola",
-            "uber","zoom car","oyorms","trivago","irctci","IRCTC","oyo","olacab","redbus","makemytrip","OYO","netmeds","apollo","pharmeasy","1mg","jio",
-            "airtel","vodafone","BSNL","tata sky","dishtv","videocon","netflix",
-            "amazon prime","hotstar","spotify","gaana","linkedin","youtube","EMI","emi","loan","policy","lic");
-    private List<String> food = Arrays.asList("swiggy","zomato","uber eats","dominos","food panda","kfc");
-    private List<String> shopping = Arrays.asList("amazon","flipkart","myntra ","jabong","ajio","flpkrt","paytm","club factory","bwkoof");
+            "club factory","bwkoof","Big basket","grofers","bigbkt","naturebasket","easyday","amazonfresh","spencers","irctci","goibib","MMT","ola","CoinTab","Mi Pay",
+            "uber","zoom car","oyorms","trivago","irctci","IRCTC","oyo","olacab","redbus","makemytrip","OYO","netmeds","apollo","pharmeasy","1mg","jio","Cred","Omegaon","Udaan",
+            "airtel","vodafone","BSNL","tata sky","dishtv","videocon","netflix","Amazon Pay","Google Pay","MobiKwik","Samsung Pay","WhatsApp","TrueCaller","PayBee",
+            "amazon prime","hotstar","spotify","gaana","linkedin","youtube","EMI","emi","loan","policy","lic","Realme","MudraPay");
+
+    private List<String> food = Arrays.asList("swiggy","zomato","uber eats","dominos","food panda","kfc","subway");
+    private List<String> shopping = Arrays.asList("amazon","flipkart","myntra ","jabong","ajio","flpkrt","paytm","club factory","bwkoof","snapdeal","shopclues","homeshop18");
     private List<String> grocery = Arrays.asList("Big basket","grofers","bigbkt","naturebasket","easyday","amazonfresh","spencers");
     private List<String> travel = Arrays.asList("irctci","goibib","MMT","ola","uber","zoom car","oyorms","trivago","IRCTC","oyo","olacab","redbus","makemytrip","OYO");
     private List<String> medical = Arrays.asList("netmeds","apollo","pharmeasy","1mg");
